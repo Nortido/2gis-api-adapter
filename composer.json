@@ -1,0 +1,24 @@
+{
+    "name": "nortido/2gis-api-adapter",
+    "description": "2gis api adapter to a php class",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Nortido",
+            "email": "nortido@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0",
+        "guzzlehttp/guzzle" : "~6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "@stable"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nortido\\ApiGisAdapter\\": "src/"
+        }
+    }
+}
